@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!--Font Nav-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3880d83a86.js" crossorigin="anonymous"></script>
+ 
+</head>
+<body>
+    <nav class="menu">
+      
+    <ul class="nav justify-content-center">
+
+        <li class="nav-item">
+          <div class="Menu-inicio">
+            <i class="fa-sharp fa-solid fa-house"></i> 
+            <a class="nav-link" href="#Menu-inicio">Inicio</a>   
+            </div>
+        </li>
+
+
+        <li class="nav-item">
+          <div class="Menu-Filmes">
+            <i class="fa-solid fa-film"></i>
+          <a class="nav-link" href="#Menu-Filmes">Filmes</a>
+          
+        </div>
+        </li>
+        <li class="nav-item">
+          <div class="Menu-Series">
+            <i class="fa-solid fa-video"></i>
+            <a class="nav-link" href="#Menu-Series">Series</a>
+            
+          </div>
+          </li>
+      </ul>
+    </nav>
+ <!-- <header>
+    <section class="FilmePrincipal">
+      <div class="text-center">
+        <img class="Filme-DrEstranho " src="https://lh3.googleusercontent.com/vSd6jIkK76tW-cv5cfY1SXs7vXHc6SneAJVoejqZRgf_u56wpkKxoW8soflmxIeCvI1ddHp3mYM640qISeSesRbU4og9fUCKvxzNjmzI5Fcp5CCY7B34ohOfwq6sSTmdeTdcOkgyCTA5op6zveMOYTNJjZRm9YlI1S5a6gjXdNtX8vj7G82ITmvn9vQJp6EVgnlWXETQuAbNQos6nQPtU7gP3pv95Zfd5_kzSaLCphlWBOhITuTTEioG8nah6p__MfwABKrjbwVXDjr5yufSgF5pGeCR-A7mrl91ir6mIf2Larg44Bf_DD0Me2RDuUH25Z0b2AodbI4m7eOSGW-ZbmiRkLh1t6XHHfqjW8NCxIl3b_oFZEE0MBT3fxkmccVtutoPe-ZT4sJoYJZR_aN2O0c1x6YjSCeMRlkQTaY9mkkfQ4Quy0ODJrgZbzhOn-zppQ5j4b-4oRUc36n3It2ilIBAlbkCMLClchK1Pz-7s1Mai6sK8mwXvB0IjKKbYxTGoGGGhqsmnJLiBgfbsAyVtXKFEmKafLk-oERKz5wvTwnZHAZNa6jZn6LH8AaHHywh8429W8D5xx-xZ79cW9zmJu2iN4FNy_FrJ8gufc1cnI8TSRjuuuZvw1AjO0zChr5C0QxSF7D3PESEpFhFNBG5wXjCc6TbFBz2Se3yx2_H0zjupQ8z__d4WzNuD4rDmmGJT3LkU4pPBkECu4pdOrK80hTyfY2k2FuWwAPeIk6Kzvp32RCkaPfDogCQ8679Yk2koaZCTkWBvAufvRNK5C_sYqTbAM52gDCIS08ugrVViadn9JfDHVcTKQZzJApJQXnIsBiwknWEuAklGR9R9NXkyi0VrkWm2ls96GecOTFYDXmog518eFy82MGyYf3VM8X1RDzBfmveHG-eW111NiXg23WQss-AoRnac2lpeX10krdH=w411-h653-no?authuser=0" class="rounded" width="20%"  alt="...">
+      </div>
+
+    </section>
+  </header> -->
+  
+  <section class="Pesquisar">
+    <div class="input" >
+      <i class="fa fa-search"></i>
+      Pesquisar
+    </div>
+  </section>
+  
+    <section class="Section-Botão">
+     <div class="btn-dub-leg" >
+      <button type="submit" title="Filme Legendado">Legendado</button>
+   
+      <button type="submit" title="Filme Dublado"> Dublado</button>
+    </div>
+    </section>
+
+ 
+        
+
+        
+
+
+  
+
+   
+    <br>
+    <br>
+
+    <section class="Filmes-Gerais">
+
+    <div class="container text-center">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+       
+
+        <div class="col"><img src="https://lh3.googleusercontent.com/PnzbbPfn_aX2EywVeJ6wg3Td3dq6TqV0-eNI1XA3LybU7vPhydGEYe8cmBWqTZpz7XiBNW09mMHilnpdsu-46bBkFNvv6uH4xfayhCd0PvKJgvpbzMZ2BeAWb17CsS-Pw4X0r1IKNaNVrtSVU-_cLu9_TjNlmfP7lrHUh86aN8NOjXEQyUs92IGpGP2f6Z45l8L3u3Ga7kKASPCLswKBMjik7Cx0l3SGZYoBE-cO_6FpcmKSJqJjuzL4-7rJndqOtnG8hxqfKWAM8qluLWpj1B8GggCxczMYq2Z_cS1I-_elZsxzDw115aZBADB-EV0-M6gz3MUqRrYVukyZDbq1RoT_ByuvlOLgvvz7GCdNbXYtL8TnOhJUxEvBw6yp0XDS022zY1CNzYJQPexlTUTXxPFFE0c-EbZeO-DO1Lfp_q8uaeOPlXQbuqVNYj1ktm0zbqN9EtkcUN7rR_qsi_JGLhxDhj9ruBEb0yR7OiXcaTuMPuehvc4y_l4MzjEjpwiFxgMMgwVU6T8jYkYm5RUegUAoE05OuAfHsJljJD9xHEC9ljO_IHFgmRuOIY_yVB4IJP-U_Y3-hjSJhDVO3XRG_J19ZwU0iOSMOgPziT_-VQlIkjrB-VxT2QxpNvcXzepiv5C-Rysnd0CV63n9jkBHN8Eyy7smEDM7NGSKhmz4cWFo3EgerRrfGVkbAyfljNPptTxtbl7a4krkMB6JpC5wcIH3FBUBDwVcYL2MD4MJBgS6BnXkq8GcIum9obHsmieEZ8EaqIes5EMQUTWcrKCYPPyf8iC0L41C3EyPrkKQWlTd0dk5cMILQ2mCOvyOKX7Y5iXMH_Ovp37RJFzxDzyFMKwxLuFA8eLjI_63jwxqcYh5RcCsaL8JbyPVKJ8MF4s-Ki4HNY_qUE7tfqHc4IRHsnErJy5BytxVpYjyiMo3zEWN=w411-h653-no?authuser=0" alt="Filme Palhaço imagem" width="60%"  >
+        <p>
+          <button type="submit" class="btn btn-outline-secondary"  title="Clique Para Assistir" >Assistir</button>
+      </div>
+       
+        <div class="col"><img src="https://lh3.googleusercontent.com/7q4wkuLLwxXkiHOEBvS27GgHOEvqwM3VjUubd0P1l7TsJD8BkyPAEidl6Y98IzohjXK5HZh6q30LTFVuyKElL5SRAcJ_YneZNOY_7i6PtsVLwMu-VIdMWjKjKT6-uHV6penECgU_TOGC1S3mVWFbqgW-jMXXeCt7buZmVIESwOahoTgNKlGbp1TFH0pUh9hy83Cjv3hteyXlLlnMoRgK_RuOL2VQrc0hxM4C1JPBUowZvhVmfhwnbYzywCe1SUxemgroucLlwckr0FUulgKlPAez-VWrrAecpniy_iwxt-q-ss5-ZDeh9OssPGitVttja3CyTWf9f6M8d087XlInt9SzlA-4g6kOBERUn_ChkFD9XjaTxk1B1WSI1cwAU3Jql2Fgk-N56fBoSbIRZOUIs-u7moCaAcrJVqla422HRWJ1Hypl7DfxGQ_yXud8lM55qtKtn1xdF2uqE-OyInnVG0q9FMC19CP_JtN31eC8gU9m-uGvIWaEpqotaLX54p4YJVn8RkGfAI6PcUDUH2Za9twbz-2mQkMEzfPJysIuzeBToktfQdaRAeAhr-O2NrfydDEibUVDq0If2YnlYTTAR3wRIAuLKJyUWL8lJzCC6-4SGZxYhPGFlRn8eODackEmbepxcEHmhVOOmP1HA8zvwb7OH_sBze7ICP1IyTYZbcLVi14kldU70q9OTfh0zXZ0cj7jCDgcsmW8TiYZzmLm8EZ3oVy_8YMT_WzrMzn8TVwBJKYEN3e8ItZWf8tpxpcLn_cycjZDc7GBBVyNt0eeVIfEwxq3wbSaSIp3S7hG8wFGE-_Ep4jgrkMgNCTd1XN7TUgKJaaWF3bOfbliGgiJ3kbS4zeU_fDPVLc6wKjQ9Gj7OYYBfh9-EKpzE8JNaaXPQoaLGZPwSu9AxSlt4bjMnsZ1ew1RTcXNLs9ioSjtLnlH=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Não Olhe Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+          </div>
+       
+        <div class="col"><img src="https://lh3.googleusercontent.com/b4Qq3-_Si9jSt9PbCsvUajQ0Ibjy1RwgBz0Dc_kiT-tx17ALDQpFDL0kvyXIEEqeOBtKwl2w-H0nNUTbX6i2FtbMqTXulOypP1YmU2622JDzKX-rG4b9VoM_pB0FJ_Rh1iRJpNffM6Jn4qjy1E2DtPZAott0WQDl39IeebN9kgQLLN_rjlXyk9uOHcWDHapiwDS8ht8s7HJ8pyYfIGS5BjEWcZYXigt4kiWDE-lksDtbnZEtq55l5r5mrcKU_Io6YSbasim5prbh-BYM7FtbolyBnbIZse-aCZ86N0KvFdGDQnBxe0Y1xQE9mj4doynjFhLwiloBOCR1Y-9AS0wJ-NvuLKI5jyut5eeGvUfcqYbd_qQpPswVgf2crofeI5boCxfhtClDw-HAcZKy-NMfGVoJ-p2PIcEOFGAsiQPhtQybwwFdRjtaknyA6KjIeYFFL6EPTyPzuieeKM-o323OQcakXrNyZskgOmFDAed6p886hGMx7xQ_FvPt76Di0MMdYaSCgkAOLB1Zxy5PoC1Uf-SagFdQex-2A6nCOFCcBVlhpCZPGRPRmnkdRl2AkZ7wgFSMFSDIua0iYpwQMvtYdTxzlXozfpiMX5IxhcG1GdjHIWL7tGOj7FZj4kE4f2R6YTIHTScOFpAynqeof16cGqSn3wLPMrpWf4ZrbcN-HzT2enPY3gB8qJpP2Cu-W-2iOYrFv5AmHxjxxNwIzO9fh651gaQsFutjE6W8ryEDG5XmoPPsbdn7V8PgGfFZFego4MaITUY0ufMytGQpFOLw9vJilaaJh7hCXTQ1Qpr2mftBOh2J4hBpZs7Y1tqVcbrEgczxYbQvouCFNETuwyAn6QfiaNG3_OCwcP_NqufdDTqOalrZ1OFFUnbN2yE18hl11TSr4kRCtDZgUUSEQ65SUyCqavSXSYHSDRZys_OZwjhv=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Não Olhe Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+        </div>
+      
+        <div class="col"><img src="https://lh3.googleusercontent.com/xrqBOpm7zHiWRhfcYTAVBBFG68kPUKathBF1dib4IUb7qpW7XA6WbOgqCn198rN-D6n_gNxSviFEUqFDq6FdF7imUvAUGoJxRs-I2QJ5A7P57iM9Sg_AkALjHfnQOjHcsQ2ZuzG0wQo2kjvpYiXbbQXNwc8af8GOYm03kDwF-fwLwL-XPuWoHQNmrRWYAdxu21KK2NDJ-rOpqWLOlYVTClDJMPIknAWIIGLpbsabhjQz8xmML1tvBqQij3UkghjQZG4CQcdI-e4Dxm5KTMKBK4Rr6M1R5j_7mtoqlLYrqBhaV4DAhDlZHShcwZWM2mDehb0pKriQGMWY0mReai3vzyr2XommTPvpn4wG4DwKF0SCbesj_O-zqJ1NJTpvuCYGmj1cp5VUYm10LTSyxCWu1IMKdo35z93_Zj07v_2pY5imfR7wsOAbvvOkJnbjWQy23yfnsqSR4ivjspxNHBdq5cwEJQkyYjImOdaDOPGXBe2TG7mpHIPzXlE4FBxG7DGfc5bLzIjcQ4s1pXb6jBhJB683WQWboXvQ-a1bMIFIMkYyK5X_qEEKKUHmxiXQeIcQYYap2qLB3nhF619PhpkIo4-vihPJZnCYRhzeOBNSB7mo96jZSQmcOjz_k6DmrV8GfYIjYIefTouu9J-zsRy322uqsb6dJwaNHF0hlBFcF-fs2jVCyLsF5UMb2V3mm6KujXpPPrYkAwnQhQx1crnUTkX9Lk5Y2NzEHKCtN2AAOhRtIQOd7qu-rVtP2QTVGIOlhbC_RnzbPNrY1KbFcbwJs4SWJeKcJQvXeZGRUQQ3Rkjx0OtBpKSCN3sIUNQCC81ui8We3TvztuxLpBnhRyyiYMlbommZI6TfL3SyoR13w1qxZvVsg3xiWI78btsgCv4omeaJ8KJsc7vydyj62Eku3h6BUM7q199hHVUBsNmcGPP3=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Não Olhe Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+        </div>     
+       
+        <div class="col"><img src="https://lh3.googleusercontent.com/YTLnU4gjAm-y_sdh2qKEp1IXJ87V9R18PAcJEqgypHsK83KI574SIsHpsoIP6mT3x77YWBzusjJ295fNAZkPjj6ug4sRcNJcusc8WQxctn1LCPQK1FhNqCFRcN3_1zzIGMVnsK4j-K_RywCtUVIvkQjxtdhT2Dur3JHs3Dh7uy-bL_KBxt3HzPM4tlWWqxEmeLPiqU7U7cNkHt7s3q_MMIZGywniA7irxxie32J2fIv39UsK0BM_aagIZoSAmGHXE_yWKzKjkPm7gkbUHqNQlDvJbaNl_LA7I6C0xllg2XvBzNWerMawsPuhjoESGggnuHx4end-rb7Xix4zFpGhc6HH9nekq0JybXcGZX6jShdtdkIwfWJ2M8x9m85N-HixgeWtvHjn-wfU7keob9E7ZfiSfcmYBJ2QCanDtPM3jjOo7Nw49vtmX3780ogwNkPAw8BNnfNTp846QnsGShJmMTJOYXphs-YYJ7cDdMBrKRe7ZSXcBKdtBvV9VOhaha_MS-30YQ-vG2ssWY3ipk_Q1p8FQPywLFIvY5YbqiAB9XuNgt9NnNKPQW1dvt7oKLzJSqCsvEr9U3w-WbrRVxjVD1LjJHBESPkx7765yyuOKon7hd__J34LW5Gfz1RVWMETGzljBsyk-mTKG-wabtWxt8WzE-dD9o56ObEqDjwKVNa1VysDbH19JxFw4IfS9JjzR06IT-FJQPEXzw4Wk7d1SX1mfP-FD8OJbFYGDXpn-uB5hMMa2_2-9gpimfD4h7BCJDrfnUD8hoPJ95iBzzFIMxVgrEge2_GtlYmu_glDcAR8tBg1dcdMtPQmBz0dgR2QKtOowRKHkOXLQ09xOTuqq3eFL-gx5yKnr7XqZ4aX8Wta3rJw-3hMhzHVIHCo3It6TQ_QgbkYZu5XyK3Fl2ZEIVXIifd6R3NddmNoHWaH6pRX=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Não Olhe Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+        </div>
+
+        <div class="col"><img src="https://lh3.googleusercontent.com/MheNi9pBBfyqcZ3KQB6t-PmkdTeOVTIEwbwVzRYFH7ZBXIxHYaeJoVWhbqPbWW5rptvJF2M4vT6oo6qZWkv5xIa4CuUWHOlAHN028UFZa7rLMonY3EW1kcY0HBADJm_d3ZMdPFtMH-41O4N_w4wddf6ph55p63fsjxlAysOgZ9vbo-rlfSsUZ6U0vHufMxuH0FbNI6zBLDkXjm8BxpSGK2kiXHeB25qgckN4m7jmutFuQPF3fN77uImEZYddS9AcU-opEuO4eQ5Ueo6pAMc7f7hkwSDIA9YiEbO1ZQ43l6Sk-EzYuTukptvIovX0fGSWBpR_8ll-Iw3YQuuEajsAP3jftsy6_rqjCdJEy2QM_R7L737KhH8s5IyX9C2XEnWGXWE5f4IZNOCG302s5op8FIdwO7h1mNDz1ZTFnMU8LcNWMvJmgs_csx3NrYKoiWwsmmR1J00_u4YCmaBqpNT-FXOEa4oweS-IAgkSmhykPcW1MrfdmKG58cveAjuMv97BuUYP7z1KtiWmqi3qVZKNeUW-XJ1Tyxsyv3yTk8jdugdejMb_6xym5nOcTWSvsPOFHdazQZuJjh0h4R45aiQUi3GdskgpLgTlcRm1PrkdVdLO0BwVftZNaF8coUCcL4ZyrIMECXfKppcds6x3mCTqmqgSVv0MvHkgPthgszDzBe5jFm7z2sTjz23oB_AQkO-fhq1CTIMOIpJNqy1kQ-YazFBGBrQtz41u_uQ_K1b3rxtAIClK7sZnuMHgsj1CMmu7Xjwb1J1FGCwEkrp0IjXNf2nNKJDK4bndfekm-XxyUlV7N9ankMbiGs2EJDX0EWvCfRRvACdBbomGOuAGGw0IDBodWeOGAOu3_rVJu9jTL_4KdrcAd0g7rIQA0yzoCmS1gqTZaXnmR1SpDFvLEj6a1b42sI4HURKztR7oU7GMoais=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Não Olhe Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+        </div>
+
+        <div class="col"><img src="https://lh3.googleusercontent.com/mGpMpvPOq0WeE7JF0Bg4cW7Z-s5NT2OIN5Uh-z0AR7wWaXpE8UFOSCXFxfaTTmzSaBdugidl9hHU2naPCAZF5ePGdNt6FbrDXDx0F15xvQiARf3vA1oiFe5kcdYanMmG3MR0guadKDcdxhPu6YZTBheZoTvZXEdTJJYE624QsB7tPylzBIkAQ_686A9s3M-F32HvuNV0YFVIjE2-gDnSrLoqqaTXC_uy3YDK5V_FuskfKs6fVriiB5C2cmZqMdJSXW61qv1LOqZgnRdf1NRKcVXH5X-LCSDNyx0firVYvpleCAe3ylIoV2tOryVwlwoYZhywWHh9QFgC1mZ3U9OybdTSNafxfvlCaEKT4Hwugz8fprLtpdbotvDMUXz9LyN9b-ZPijJUaKZJSqCRlywDrE2JnWQyvfjgzMkKQakBBBVeCji6x1Er5GLzUokTz0-ypER-Qxbny5op-WkA9H33S8yuie97rZUBZW10T5mHXQHJ024ZhkXfg9AkLNxd-1PigHRou6xozOwHKCeRzLd-3NeeMI6xQpMTRMCmNjff_maYou2oFYWi4AZ5rDA5Q7GNY9V90wFXzHj13azvwqAO6ARiN4-v4d2K0TvPMhhsXhApsCkaXi_5KTQe4d939M8LcV2xQE6vrOr84syCjD0gALNYGjJZFbWIiL3JeGdlStSzM3yaRC0GYG51uqQfbjNHTnleYRRb2LPNX0vlS-bnak8tAk5ydpRD_wA2KoQeneuKOICTswWunxNNBZJ7tdveLUdAVkKHIMfrbGY6rddVxIqkxWh5Xu4e4VLh8TseDW_8BvO02OMJgJp7uwlncA_an0CT5ut5kHBuYjkiEJFzVIdnGWL7WK02iseYJSxWOJK7yBUOwnM-R2Boje_kTVe8hNkNgQIXWlQYv4zyEXXmMkuFPxNtKBJ8xVMrJF70ugNv=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Não Olhe Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+        </div>
+
+        <div class="col"><img src="https://lh3.googleusercontent.com/NzEqPhucYub8L9Ev8uFTeoY0Cp8i7NrSmfC33BEU515WPaAEIhQb8c5pRXoBQ_T9TsvW_JsAbcmM1rawZWdb3nq65w0Dkn12G2H-ZaEsHs_ofSR0O6vyaQi-rDwZ3mbuY04oaZjitlNjqoXCpU1joximHug4ZF3gG82LpZgSZqRvONgKji7UYftVVoDkcuP8pBR-cgtT6sEAPeZKbWBlrNiuf0hSDxIUpZQ_gX2GXeMoZre6bZmzgjU_l3azsW0UmAYhU6-57OWgkGQ-u-wJ12NGRJcv6IDDmImCozuWqGT1pDEfTs-XuhFAm17_6ingVe_9k_OSFIiUiQBFmTjxkKtmRxX_pfipWYTSQhnEp-WH5eNmQnN8PpDjJ8vlZylAIU3hOoLQA0vLVl5wXHvfEt3TtdtZdRNGmQDUBwq_p8iYMOaXv-ofLEI1eokozXVg7igZQ4ynEKv2YiPLf6nNmPMKgzmBKDP5Ty4xjIOveazntc1M-p1CYkqtjJPd71It9iKqpE3F_1dBmM435oCwjxEr-x_QqmOkOKzlAIosrLcWsnRUTn43hxbPwfdv5417fTNV8MJSj8s7-v72bpLSDT09pCaBLjBPV9_IDA6DzxxMS7KOndH1TDbG0CN9vF0aRQtf71ceMdTAxvWtWOXFnn-RlQHb1BYSKivTvCOTSOO4i9PLG8fl1ccwYfJawqMvNPeZqjxXi0xrYUhiXHlj9i4kK3fouqRGvBNcrgXr2HtZfmt330_wH4cBfR6zhhzD2oa8CE_QM5jy8CYMtjhYpJcS-etg2S86IouQWL55dcfnaVx8odVbKIT7DsdWifnK43fIi0Bt85XXVzYKtq615l5f3lmjO6FXUfqNM16DNwhrk4qW5jsNrbYYtb2jjH0lhZEGAb49Vs51U8Cs01crJGIldKHTirOVhKvBHQ36IYE4=w411-h653-no?authuser=0" class="img-fluid" alt="Filme Thor Imagem" width="60%" >
+          <p>
+            <button type="submit" class="btn btn-outline-secondary" title="Clique Para Assistir" >Assistir</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+  </footer>
+    <style>
+     
+   
+      body {
+    background-color:rgba(23, 10, 10, 1);
+          }
+
+          i {
+    color:  rgba(255, 127, 34, 1);
+    }
+
+  .nav-link {
+    color: white;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+  }
+    .nav-link:hover {
+    color: yellow;
+  }
+  .Menu-inicio, .Menu-Filmes, .Menu-Series {
+    display: flex;
+    align-items: center;
+}
+.btn-dub-leg > button {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    text-indent: uppercase ;
+    color: white;
+    background-color: rgba(146, 146, 146, 1);
+    border-radius: 8px;
+    margin: 5px;
+    border: none;
+    
+} 
+.btn-dub-leg > button:hover {
+    background-color: rgba(99, 94, 94, 1);
+    transition: 1s;
+}
+
+.input {
+    background-color: white;
+    width: 150px;
+    border-radius: 8px;
+   
+}
+.input:hover {
+    background-color: beige;
+    cursor: pointer;
+ 
+}
+section > .input {
+    
+    text-align: center;
+    margin: auto;
+  
+    margin-top: 30px;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+
+
+
+
+.Filme-DrEstranho{
+    border-radius: 18px;
+   margin: auto;
+  margin-top: 40px;
+  max-width: 70%;
+  min-width: 20%;
+}
+
+
+
+.col > img {
+        
+        border-radius: 20px;
+        margin: 2%;
+        max-width: 90%;
+        min-width: 20%;
+      }
+
+
+.BtnAssistir {
+        border-radius: 10px;
+        border: none;
+        width: 50px;
+      }
+      
+
+
+
+    </style>
+</body>
+</html>
