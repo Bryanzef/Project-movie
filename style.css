@@ -1,81 +1,92 @@
 body {
 background-color:rgba(23, 10, 10, 1);
-}
-.nav-link {
-    color: white;
-    font-weight: bold;
-    font-family: 'Inter', sans-serif;
-}
-.nav-link:hover {
-    color: yellow;
-}
-.Menu-inicio, .Menu-Filmes, .Menu-Series {
-    display: flex;
-    align-items: center;
-}
-
- i {
+    }
+    
+#IconsTopo > i {
 color:  rgba(255, 127, 34, 1);
 }
 
-.input {
-    background-color: white;
-    width: 150px;
-    border-radius: 8px;
-   
-}
-section > .input {
-    
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    background-color: rgba(217, 217, 217, 1);
-}
-.input:hover {
-    background-color: beige;
-    cursor: pointer;
- 
+.nav-link {
+color: white;
+font-weight: bold;
+font-family: 'Inter', sans-serif;
 }
 
-.HomemAranha{
-    border-radius: 50px;
-   margin: auto;
-  margin-top: 40px;
+.nav-link:hover {
+color: yellow;
 }
-.HomemAranha:hover {
-    width:255px;
-   
+
+.Menu-inicio, .Menu-Filmes, .Menu-Series {
+display: flex;
+align-items: center;
+}
+
+.input {
+  background-color: white;
+  width: 150px;
+  border-radius: 8px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  background-color: rgba(217, 217, 217, 1);
+  }
+
+  .input:hover {
+  background-color: beige;
+  cursor: pointer;
+  
+  }
+
+.Section-Botão >  .btn-dub-leg {
+  text-align: center;
 }
 
 .btn-dub-leg > button {
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
-    text-indent: uppercase ;
-    color: white;
-    background-color: rgba(146, 146, 146, 1);
-    border-radius: 8px;
-    margin: 5px;
-    border: none;
-    
-    
+
+font-family: 'Inter', sans-serif;
+font-style: italic;
+text-indent: uppercase ;
+color: white;
+background-color: rgba(146, 146, 146, 1);
+border-radius: 8px;
+margin: 5px;
+border: none;
+
 } 
 .btn-dub-leg > button:hover {
-    background-color: rgba(99, 94, 94, 1);
-    transition: 1s;
+background-color: rgba(99, 94, 94, 1);
+transition: 1s;
 }
 
-.btn-dub-leg {
-  display: flex;
-  justify-content: center;
+.col > img {
+  
+  border-radius: 20px;
+  margin: 2%;
+  max-width: 90%;
+  min-width: 20%;
+}
+.col > img:hover {
+  width: 62%;
+  height: 78%;
+  animation: 4s;
 
 }
-li {
-    list-style: none;
-    display: inline-block;
+#btn-assistir:hover {
+  width: 80px;
+  height: 40px;
+  animation: 3s;
 }
-section > table >  thead tr > th > img {
-    border-radius: 30px;
-    margin-top: 5%;
-    margin: 10%;
+ 
+#SocialsIcons > a > i{
+ 
+
+color: red;
+background-color:rgb(8, 4, 4);
+width: 40px;
+height: 40px;
+border-radius: 80px;
 }
+
+
+
 
