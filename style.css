@@ -17,9 +17,9 @@ color: yellow;
 }
 
 .Menu-inicio, .Menu-Filmes, .Menu-Series {
-display: flex;
-align-items: center;
-}
+  display: flex;
+  align-items: center;
+  }
 
 .input {
   background-color: white;
@@ -64,29 +64,31 @@ transition: 1s;
   margin: 2%;
   max-width: 90%;
   min-width: 20%;
+  image-rendering: optimizeQuality;
 }
 .col > img:hover {
   width: 62%;
-  height: 78%;
+  height: 78%; 
+  border: 2px solid red;
   animation: 4s;
 
 }
 #btn-assistir:hover {
-  width: 80px;
-  height: 40px;
+ /* width: 80px;
+  height: 40px; */
+ font-size: larger;
   animation: 3s;
+  
 }
  
-#SocialsIcons > a > i{
- 
-
-color: red;
-background-color:rgb(8, 4, 4);
-width: 40px;
-height: 40px;
-border-radius: 80px;
+.a-Links {
+font-size: x-large;
+}  
+a:hover {
+ color: red;
 }
-
-
+ .SocialNames {
+  color: white;
+ }
 
 
