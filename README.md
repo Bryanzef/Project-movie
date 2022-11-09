@@ -10,6 +10,6 @@ Site de Filmes  feito com bootstrap
 <ul>
 <p> </p>
 <a href="https://project-movie-blue.vercel.app/" > Clique aqui para Acessar a pag TESTE DE LOGIN </a>
-<a href="https://project-movie-nqsm.vercel.app//" >Esta é a pag Principal </a>
+  <p> Ou acesse também a pagina de filmes  <a href="https://project-movie-nqsm.vercel.app//" > aqui </a> </p>
 
 
